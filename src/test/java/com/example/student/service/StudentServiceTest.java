@@ -47,7 +47,7 @@ void testGetStudentById() {
 
 // Arrange
 Student student =
-new Student(1L, "John", "Java");
+new Student(1L, "Priya", "Java");
 
 when(studentRepository.findById(1L))
 .thenReturn(Optional.of(student));
