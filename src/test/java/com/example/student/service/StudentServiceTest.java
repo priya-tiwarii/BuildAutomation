@@ -61,7 +61,7 @@ assertNotNull(result);
 
 assertEquals(1L, result.getId());
 
-assertEquals("John", result.getName());
+assertEquals("Priya", result.getName());
 
 assertEquals("Java", result.getCourse());
 
